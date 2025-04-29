@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>kennel GoForIt</title>
+    <link rel="stylesheet" type="text/css" href="../../css.css">
+</head>
+<body>
+<?php include '../../includes/header.php'; ?>
+<div id="extend">
+<div id="triple">
+<div id="first">
+    <ul>
+        <li id="kull">C-Kull</li>
+        <li>Hanar:</li>
+<li><a href="hanar/chip.php">GFI Chippendale</a></li>
+        <li><a href="hanar/chocolate.php">GFI Chocolate Chip</a></li>
+        <li><a href="hanar/check.php">GFI Check Mate</a></li>
+        <li><a href="hanar/chuckie.php">GFI Chuckie Cheese</a></li>
+    </ul>
+    <ul>
+        <li>Tikar:</li>
+        <li><a href="tik/coca.php">GFI Coca Cola</a></li>
+        <li><a href="tik/christina.php">GFI Christina Aguilera</a></li>
+        <li><a href="tik/carmen.php">GFI Carmen Elektra</a></li>
+    </ul>
+</div>
+<div id="second">
+    <ul>
+        <li>e: Hopla Soulmate</li>
+        <img src="bild1.jpg" />
+        <li>u: INTUCH JWW-00 NORDUCH TJH <br />Glad&ouml;vik's Vertol Chinook </li>
+        <img src="bild2.jpg" />
+    </ul>
+</div>
+    <img src="bild3.png" id="ext"/>
+</div>
+<?php include '../../includes/footer.php'; ?>
+</div>
+</body>
+</html>
