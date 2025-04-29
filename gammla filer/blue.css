@@ -1,0 +1,222 @@
+body {
+	background-color: #6500ff;
+}
+
+#goforit {
+	font-size: 400%;
+	
+	font-family: Copperplate Gothic Light, 'goforit', fantasy;
+	font-style: normal;
+	font-variant: normal;
+
+	font-weight: 500;
+	line-height: 15.4px;
+
+	text-decoration: underline;
+
+	color: black;
+	white-space: nowrap;
+}
+
+#subgoforit {
+	font-size: 175%;
+
+	font-family: Copperplate Gothic Light, 'subgoforit', fantasy;
+	font-style: normal;
+	font-variant: normal;
+
+	font-weight: 500;
+	line-height: 15.4px;
+
+	text-decoration: none;
+}
+
+#startpic{
+	position: relative;
+
+	padding: 30px;
+
+     width:22%;
+     height:45%;
+}
+
+#bildresize{
+    width:100%;
+    height:100%;
+
+    left:0px;
+    right:0px;
+
+    margin:0px auto;
+}
+
+#logga {
+	position: relative;
+    margin-bottom:-30px;
+}
+
+#maininfo {
+	position: absolute;
+
+	text-align: center;
+
+	width: 98%;
+	height: 98%;
+
+	left: 0%;
+	right: 0%;
+    margin: auto;
+
+	background-color: white;
+
+	border: 3px solid #6500ff;
+}
+
+nav ul {
+	z-index: 10;
+
+	background: #6500ff;
+
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	border-radius: 0px;
+	padding: 0 20px;
+	position: relative;
+	list-style: none;
+	display: inline-table;
+
+}
+
+nav ul:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+
+
+nav ul li {
+	float:left;
+}
+nav ul li:hover {
+	background: #751aff;
+
+	background: -webkit-linear-gradient(#6500ff 40%);
+	background: -moz-linear-gradient(#6500ff 40%); 
+	background: -webkit-linear-gradient(#6500ff 40%); 
+}
+nav ul li:hover a{
+	color: white;
+}
+nav ul li a{
+	display: block;
+
+	padding: 25px 40px;
+
+	text-decoration: none;
+
+	color: white;
+}
+
+nav ul ul {
+	background: #6500ff;
+	border-radius: 0px;
+	padding: 0px;
+	display: none;
+
+	position: absolute;
+	top: 100%;
+}
+
+	nav ul li:hover > ul {
+		display: block;
+		border-radius: 0px;
+	}
+    nav ul li:active > ul {
+		display: block;
+		border-radius: 0px;
+	}
+    nav ul li:focus > ul {
+		display: block;
+		border-radius: 0px;
+	}
+
+
+nav ul ul li{
+	float:none;
+	border-top: 1px solid #6500ff;
+	border-bottom: 1px solid #751aff;
+	position: relative;
+}
+	nav ul ul li a{
+		padding: 15px 40px;
+		color: white;
+	}
+	nav ul ul li a:hover {
+		background: #751aff;
+		}
+
+
+nav ul ul ul {
+	position: absolute;
+	left: 100%;
+	top: 0;
+}
+
+#fot {
+    text-align:center;
+    position:relative;
+	font-size: 120%;
+
+}
+
+
+
+#extend{
+background-color:white;
+}
+
+#kull{
+text-decoration:underline;
+color:red;
+margin-bottom:5%;
+}
+
+#triple {
+text-align: left;
+float: left;
+width: 100%;
+}
+
+#triple div {
+float: left;
+display: inline;
+}
+
+#triple li {
+list-style-type: none;
+}
+
+#triple li a {
+color: black;
+text-decoration: none;
+}
+
+#first {
+position:relative;
+width: 208px;
+z-index: 2;
+left:20%;
+}
+
+#second {
+margin-right:1%;
+z-index: 2;
+position: relative;
+left:20%;
+}
+
+#ext{
+    z-index:2;
+    position:relative;
+    left:20%;
+}
