@@ -28,7 +28,7 @@
 	    Color:darkred;
 	    
 	}
-</style>
+< style>
 </body>
 </html>
 <?php
