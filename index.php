@@ -26,7 +26,6 @@
 	}
 	.temp_head{
 	    Color:darkred;
-	    
 	}
 < style>
 </body>
